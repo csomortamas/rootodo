@@ -23,7 +23,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: const Home(),
       theme: ThemeData(
-        primarySwatch: Colors.grey,
         unselectedWidgetColor: Colors.black,
         colorScheme: const ColorScheme.dark(),
       ),

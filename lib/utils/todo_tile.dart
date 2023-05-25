@@ -25,9 +25,9 @@ class TodoTile extends StatelessWidget {
           motion: const StretchMotion(),
           children: [
             SlidableAction(
-              onPressed: checkOffFunction,
-              icon: Icons.check,
-              backgroundColor: Colors.grey.shade200,
+              onPressed: deleteFunction,
+              icon: Icons.delete,
+              backgroundColor: Colors.grey.shade900,
               borderRadius: BorderRadius.circular(15),
               autoClose: true,
             ),
@@ -38,9 +38,9 @@ class TodoTile extends StatelessWidget {
           motion: const StretchMotion(),
           children: [
             SlidableAction(
-              onPressed: deleteFunction,
-              icon: Icons.delete,
-              backgroundColor: Colors.grey.shade900,
+              onPressed: checkOffFunction,
+              icon: Icons.check,
+              backgroundColor: Colors.grey.shade200,
               borderRadius: BorderRadius.circular(15),
             ),
           ],

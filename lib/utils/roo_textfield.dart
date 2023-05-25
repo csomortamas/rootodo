@@ -13,6 +13,7 @@ class RooTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
+      cursorColor: Colors.yellow,
       autocorrect: false,
       controller: controller,
       textAlign: TextAlign.left,
@@ -21,6 +22,9 @@ class RooTextField extends StatelessWidget {
       ),
       cursorWidth: 10,
       decoration: InputDecoration(
+        focusedBorder: const OutlineInputBorder(
+          borderSide: BorderSide(color: Colors.yellow),
+        ),
         border: const OutlineInputBorder(),
         hintText: hintText,
         hintStyle: const TextStyle(
