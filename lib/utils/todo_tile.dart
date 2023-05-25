@@ -47,7 +47,7 @@ class TodoTile extends StatelessWidget {
         ),
         child: InkWell(
           onLongPress: editFunction,
-          borderRadius: BorderRadius.circular(12),
+          borderRadius: BorderRadius.circular(15),
           child: Container(
             padding: const EdgeInsets.fromLTRB(12, 6, 12, 6),
             decoration: BoxDecoration(
